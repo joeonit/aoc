@@ -3,6 +3,7 @@
 #include <sstream>
 #include <string>
 #include <cmath>
+#include <unistd.h>
 
 bool hasPattern(long long num){
   long long temp = num;
@@ -37,6 +38,7 @@ bool hasPattern(long long num){
 }
 
 int main(){
+  sleep(2);
   std::ifstream file("input.txt");
   std::string line;
   std::getline(file,line);

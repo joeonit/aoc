@@ -3,6 +3,7 @@
 #include <sstream>
 #include <regex>
 #include <string>
+#include <unistd.h>
 
 bool hasPattern(long long num){
   static const std::regex pattern(R"(^(.+)\1+$)");
