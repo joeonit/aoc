@@ -1,1 +1,14 @@
 build/
+
+# Object files
+*.o
+*.out
+part1
+part2
+
+# Input files
+input.txt
+inputtest.txt
+
+# macOS files
+.DS_Store
